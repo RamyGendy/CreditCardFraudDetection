@@ -1,6 +1,8 @@
 # Credit Card Fraud Detection
 
-This dataset is one of the most popular and widely used datasets. Anomaly detection problems can be solved using different models and techniques. Following are details of this project including all information needed to get started.
+This project challenge one of the most popular and widely used datasets in anomaly dectection. Anomaly detection problems can be solved using different models and techniques. Following are details of this project including all information needed to get started.
+
+![Screenshot](https://storage.googleapis.com/kaggle-datasets-images/310/684/3503c6c827ca269cc00ffa66f2a9c207/dataset-cover.jpg)
 
 ## Introduction
 
@@ -13,6 +15,7 @@ Please note in the dataset, the features are scaled and the names of the feature
 * Understand the distribution of of our dataset.
 * Create a balanced dataframe of "Fraud" and "Non-Fraud" transactions.
 * Decide which Classifiers we are going to use and decide which one has a higher accuracy.
-* create a pipleine to test and compare the accuracy to our best classifier.
+* Create a pipleine to test and compare the accuracy to our best classifier.
 * Understand common mistaked made with imbalanced datasets.
   
+![python](https://img.shields.io/badge/Language-python-green.svg)
