@@ -40,13 +40,13 @@ Frauds 0.17 % of the dataset
 
 ### Columns
 
-1. As mentioned, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'.
+1. As mentioned, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, **_V2, … V28_** are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'.
 
-2. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset.
+2. Feature **_'Time'_** contains the seconds elapsed between each transaction and the first transaction in the dataset.
 
-3. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning.
+3. The feature **_'Amount'_** is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning.
   
-4. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+4. Feature **_'Class'_** is the our **target variable** and it takes value 1 in case of fraud and 0 otherwise.
 
 ## Approach
 
@@ -71,7 +71,25 @@ Frauds 0.17 % of the dataset
 
 ### Machine Learning Process
 
-1. Encode the categorical data with the appropriate technique.
+1. Encode the categorical data with the appropriate technique(normalizing and resampling).
 2. Split the data into train and test.
 3. Feature scaling.
 4. Dealing with imbalanced classess.
+
+## Investigation Overview
+
+After exploration and checking for relationships between/among variables, we will create and answer our questions.
+
+**Questions:**
+
+1. Is the data imbalanced?
+2. what are the main factors affecting fraud?
+3. what is the relation between the feature and target variable?
+4. is there a relation between the features?
+5. which algorithim is best suited to aproach the desired solution?
+
+## Proposed Algorithims
+
+* Logistic Regression.
+* SVMs.
+* Decision trees.
