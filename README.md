@@ -19,3 +19,5 @@ Please note in the dataset, the features are scaled and the names of the feature
 * Understand common mistaked made with imbalanced datasets.
   
 ![python](https://img.shields.io/badge/Language-python-green.svg)
+
+![SQL](https://img.shields.io/badge/Language-SQL-Blue)
