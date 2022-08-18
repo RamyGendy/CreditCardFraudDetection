@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-### Ramy Gendy
+## by Ramy Gendy
 
 Anonymized credit card transactions labeled as fraudulent or genuine
 
