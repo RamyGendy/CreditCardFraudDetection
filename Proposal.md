@@ -40,7 +40,7 @@ Frauds 0.17 % of the dataset
 
 ### Columns
 
-1. As mentioned, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, **_V2, … V28_** are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'.
+1. As mentioned, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features **_V1, V2, … V28_** are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'.
 
 2. Feature **_'Time'_** contains the seconds elapsed between each transaction and the first transaction in the dataset.
 
@@ -82,14 +82,16 @@ After exploration and checking for relationships between/among variables, we wil
 
 **Questions:**
 
-1. Is the data imbalanced?
-2. what are the main factors affecting fraud?
-3. what is the relation between the feature and target variable?
-4. is there a relation between the features?
-5. which algorithim is best suited to aproach the desired solution?
+1. Investigate data imbalance?
+2. what are the main features affecting fraud?
+3. what is the relation between the features and target variable?
+4. what are the fraud amounts compared to the non fraud?
+5. how much time btweeen the fraud transaction?
+6. which algorithim is best suited to aproach the desired solution?
 
 ## Proposed Algorithims
 
 * Logistic Regression.
 * SVMs.
 * Decision trees.
+  
