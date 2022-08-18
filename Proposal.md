@@ -1,6 +1,6 @@
 # Project Proposal: Credit Card Fraud Detection
 
-### By Ramy Gendy
+## By Ramy Gendy
 
 This project challenge one of the most popular and widely used datasets in anomaly dectection. Anomaly detection problems can be solved using different models and techniques. Following are details of this project including all information needed to get started.
 
@@ -27,7 +27,7 @@ Please note in the dataset, the features are scaled and the names of the feature
 
 * Given the class imbalance ratio, it is recommended measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC).
 
-```
+```python
 Non Frauds 99.83 % of the dataset
 Frauds 0.17 % of the dataset
 ```
