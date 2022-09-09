@@ -40,13 +40,15 @@ Frauds 0.17 % of the dataset
 
 ### Columns
 
-1. As mentioned, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features **_V1, V2, … V28_** are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'.
+1. As mentioned, due to confidentiality issues, we cannot provide the original features and more background information about the data. 
 
-2. Feature **_'Time'_** contains the seconds elapsed between each transaction and the first transaction in the dataset.
+2. Features **_V1, V2, … V28_** are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'.
 
-3. The feature **_'Amount'_** is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning.
+3. Feature **_'Time'_** contains the seconds elapsed between each transaction and the first transaction in the dataset.
+
+4. The feature **_'Amount'_** is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning.
   
-4. Feature **_'Class'_** is the our **target variable** and it takes value 1 in case of fraud and 0 otherwise.
+5. Feature **_'Class'_** is the our **target variable** and it takes value 1 in case of fraud and 0 otherwise.
 
 ## Approach
 
