@@ -1,7 +1,5 @@
 # Credit Card Fraud Detection
 
-## by Ramy Gendy
-
 Anonymized credit card transactions labeled as fraudulent or genuine
 
 ![Screenshot](https://storage.googleapis.com/kaggle-datasets-images/310/684/3503c6c827ca269cc00ffa66f2a9c207/dataset-cover.jpg)
