@@ -27,10 +27,6 @@ Python 3.8
 * Time.
 * Collections.
 
-## Build Status
-
-* N/A.
-
 ## Getting Started
 
 * Start by understanding the dataset and the problem trying to solve from the [proposal](https://github.com/RamyGendy/CreditCardFraudDetection/blob/main/Proposal.md).
